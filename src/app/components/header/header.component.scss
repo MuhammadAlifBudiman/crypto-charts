@@ -1,12 +1,10 @@
 .header {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  flex-direction: column;
-  padding: 6px;
-  background-color: #1e1e1e;
-  color: white;
+  width: 100%;
+  padding: 16px;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: #ffffff;
   text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 .logo-container {
@@ -17,6 +15,13 @@
 
 .logo {
   font-size: 36px;
-  font-weight: bold;
+  font-weight: 700;
   font-style: italic;
+  letter-spacing: 1px;
+}
+
+.slogan {
+  font-size: 14px;
+  margin-top: 4px;
+  color: #ddd;
 }
