@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { HeaderComponent } from './components/header/header.component';
+import { CryptoOptionsComponent } from './components/crypto-options/crypto-options.component';
+import { CryptoPriceChartComponent } from './components/crypto-price-chart/crypto-price-chart.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [HeaderComponent, CryptoOptionsComponent, CryptoPriceChartComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrl: './app.component.scss',
 })
-export class AppComponent {
-  title = 'crypto-charts';
-}
+export class AppComponent {}
