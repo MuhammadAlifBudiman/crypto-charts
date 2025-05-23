@@ -20,7 +20,7 @@ CryptoCharts is a web application built with Angular that displays real-time cry
 
 1. Clone the repository:
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/MuhammadAlifBudiman/crypto-charts.git
    cd crypto-charts
    ```
 2. Install dependencies:
